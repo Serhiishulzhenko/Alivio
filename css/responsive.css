@@ -1,0 +1,20 @@
+@media screen and (max-width: 1600px) {
+    html {
+        font-size: 85%;
+    }
+    .video, .work {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        padding: 100px 205px;
+    }
+    .video-text {
+        padding-bottom: 2.44rem;
+    }
+    .video img {
+        border-radius: 16.3326px;
+    }
+}
